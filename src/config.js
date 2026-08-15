@@ -7,7 +7,7 @@
 export const RELAY_URL = 'ws://192.168.42.8:3001';
 
 // --- Luật đồng thuận: mọi node phải dùng y hệt các con số này ---------------
-export const DIFFICULTY = 3;
+export const DIFFICULTY = 4;
 export const POW_PREFIX = '0'.repeat(DIFFICULTY);
 export const COINBASE_REWARD = 50;
 export const FAUCET_COIN = 100;
