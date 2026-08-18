@@ -143,7 +143,7 @@ const styles = StyleSheet.create({
     paddingTop: 60,
     paddingBottom: 12,
   },
-  close: { color: '#22C55E', fontSize: 15, fontWeight: '700', width: 40 },
+  close: { color: '#22C55E', fontSize: 13, fontWeight: '700', width: 40 },
   title: { color: '#E5E7EB', fontSize: 18, fontWeight: '800' },
   scroll: { padding: 20, gap: 20 },
   card: { backgroundColor: '#1A1D24', borderRadius: 16, padding: 16, gap: 8 },

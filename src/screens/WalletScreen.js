@@ -272,14 +272,14 @@ export default function WalletScreen({ session, onLogout }) {
           <Pressable style={styles.actionBtn} onPress={() => setModal('transfer')}>
             <Text style={styles.actionText}>Chuyển coin</Text>
           </Pressable>
-          <Pressable style={styles.actionBtn} onPress={() => setModal('buy')}>
+          {/* <Pressable style={styles.actionBtn} onPress={() => setModal('buy')}>
             <Text style={styles.actionText}>Mua NFT</Text>
-          </Pressable>
+          </Pressable> */}
         </View>
 
         <KeyRow label="ĐỊA CHỈ VÍ" value={session.address} />
         <KeyRow label="PUBLIC KEY" value={session.publicKey} />
-        <KeyRow
+        {/* <KeyRow
           label="PRIVATE KEY"
           value={session.privateKey}
           hidden={!showPrivate}
@@ -288,7 +288,7 @@ export default function WalletScreen({ session, onLogout }) {
               <Text style={styles.eye}>{showPrivate ? '🙈 Ẩn' : '👁 Hiện'}</Text>
             </Pressable>
           }
-        />
+        /> */}
 
         {sellerOrders.length > 0 ? (
           <View style={styles.section}>
